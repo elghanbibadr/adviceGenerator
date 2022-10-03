@@ -1,0 +1,10 @@
+0-container width max -width property and will be verticaaly centereed and horizonatly centered
+
+1-container of the advice of class advice 
+2-the container will content p of class advice__id
+
+3-h1 of class advice__content
+
+4-advice__pauseIcon
+
+5-
