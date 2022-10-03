@@ -7,17 +7,18 @@
 body{
     background: $Dark-Blue;
     height: 100vh;
-    // padding-inline: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container{
-    // height: 15rem;
     width: 75%;
     background: $Dark-Grayish-Blue;
     border-radius: 20px;
+    @include desktop{
+        width: 50%;
+    }
 }
 
 .advice{
@@ -26,24 +27,22 @@ body{
 
     &__id{
         color: $Neon-Green;
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: bold;
         letter-spacing: 1px;
     }
 
     &__content{
-    font-size: 1.9rem;
+    font-size: 1.5rem;
+    line-height: 1.4;
      color: $Light-Cyan;
      padding-inline: 1rem;
      margin-block: 2rem;
-    }
+     @include desktop{
+        font-size: 1.9rem;
+     }
+     }
 
-//   .icon-diceWrappe{
-//       background-color: $Neon-Green;
-//       height: 8rem;
-//       width: 10rem;
-//     //   border: 2px solid #fff;
-//    }
 
     .icon-dice{
         margin-top: 1rem;
@@ -58,6 +57,6 @@ body{
             box-shadow: 0 0 10px $Neon-Green ;
             
          }
-        //  display: inline-block;
+        
     }
 }

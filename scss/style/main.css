@@ -368,6 +368,12 @@ body {
   border-radius: 20px;
 }
 
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 50%;
+  }
+}
+
 .advice {
   padding: 2rem 1rem;
   text-align: center;
@@ -375,16 +381,23 @@ body {
 
 .advice__id {
   color: #52ffa8;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: bold;
   letter-spacing: 1px;
 }
 
 .advice__content {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
   color: #cee3e9;
   padding-inline: 1rem;
   margin-block: 2rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .advice__content {
+    font-size: 1.9rem;
+  }
 }
 
 .advice .icon-dice {
