@@ -2,3 +2,52 @@
 @import '../partials/mixins';
 @import '../partials/reset';
 @import '../partials/typography';
+
+
+body{
+    background: $Dark-Blue;
+    height: 100vh;
+    // padding-inline: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    // height: 15rem;
+    width: 75%;
+    background: $Dark-Grayish-Blue;
+    border-radius: 20px;
+}
+
+.advice{
+    padding: 2rem 1rem;
+    text-align: center;
+
+    &__id{
+        color: $Neon-Green;
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    &__content{
+    font-size: 1.9rem;
+     color: $Light-Cyan;
+     padding-inline: 1rem;
+     margin-block: 2rem;
+    }
+
+//   .icon-diceWrappe{
+//       background-color: $Neon-Green;
+//       height: 8rem;
+//       width: 10rem;
+//     //   border: 2px solid #fff;
+//    }
+
+    .icon-dice{
+        margin-top: 1rem;
+         background: $Neon-Green;
+        //  display: inline-block;
+    }
+}

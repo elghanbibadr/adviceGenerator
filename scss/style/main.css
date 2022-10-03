@@ -347,4 +347,48 @@ template {
 body {
   font-family: 'Manrope', sans-serif;
 }
+
+body {
+  background: #1f2632;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 75%;
+  background: #323a49;
+  border-radius: 20px;
+}
+
+.advice {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.advice__id {
+  color: #52ffa8;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.advice__content {
+  font-size: 1.9rem;
+  color: #cee3e9;
+  padding-inline: 1rem;
+  margin-block: 2rem;
+}
+
+.advice .icon-dice {
+  margin-top: 1rem;
+  background: #52ffa8;
+}
 /*# sourceMappingURL=main.css.map */

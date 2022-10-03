@@ -4,13 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="/scss/style/main.scss">
+  <link rel="stylesheet" href="/scss/style/main.css">
   <title>Frontend Mentor | Advice generator app</title>
 </head>
 <body>
 
  
-  <h1>hello world</h1>
-
+<div class="container">
+  <div class="advice">
+    <p class="advice__id">ADVICE ID  #  <span class="idNumber"></span> </p>
+    <h1 class="advice__content">
+      <!-- Would be genereted after the fetch process -->
+      <!-- “A long walk alone with some time to think, can work wonders.” -->
+    </h1>
+    <div class="advice__iconBox">
+      <img src="/images/pattern-divider-mobile.svg" alt="pattern divider">
+      <div class="icon-diceWrapper">
+        <img src="/images/icon-dice.svg" alt="icon-dice" class="icon-dice">
+      </div>
+    </div>
+  </div>
+</div>
+<script defer src="/main.js"></script>
 </body>
 </html>
