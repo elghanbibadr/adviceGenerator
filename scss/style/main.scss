@@ -48,6 +48,16 @@ body{
     .icon-dice{
         margin-top: 1rem;
          background: $Neon-Green;
+         height: 3rem;
+         transform: translateY(1rem);
+         border-radius: 50%;
+         cursor: pointer;
+         transition: box-shadow .3s;
+       
+         &:hover{
+            box-shadow: 0 0 10px $Neon-Green ;
+            
+         }
         //  display: inline-block;
     }
 }

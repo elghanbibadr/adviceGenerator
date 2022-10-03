@@ -390,5 +390,19 @@ body {
 .advice .icon-dice {
   margin-top: 1rem;
   background: #52ffa8;
+  height: 3rem;
+  -webkit-transform: translateY(1rem);
+          transform: translateY(1rem);
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: -webkit-box-shadow .3s;
+  transition: -webkit-box-shadow .3s;
+  transition: box-shadow .3s;
+  transition: box-shadow .3s, -webkit-box-shadow .3s;
+}
+
+.advice .icon-dice:hover {
+  -webkit-box-shadow: 0 0 10px #52ffa8;
+          box-shadow: 0 0 10px #52ffa8;
 }
 /*# sourceMappingURL=main.css.map */
